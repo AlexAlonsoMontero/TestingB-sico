@@ -1,0 +1,37 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#65c89b",
+    "activityBar.activeBorder": "#945bc4",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#945bc4",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#42b883",
+    "titleBar.inactiveBackground": "#42b88399",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveForeground": "#15202b99",
+    "statusBar.background": "#42b883",
+    "statusBarItem.hoverBackground": "#359268",
+    "statusBar.foreground": "#15202b",
+    "activityBar.activeBackground": "#65c89b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#65c89b",
+    "statusBarItem.remoteBackground": "#42b883",
+    "statusBarItem.remoteForeground": "#15202b"
+  },
+  "peacock.color": "#42b883",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Eva Dark Bold",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "prettier.useEditorConfig": true,
+  "prettier.disableLanguages": ["vue", "xlf", "xml", "html"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.wrapAttributes": "force-aligned",
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 100,
+  "eslint.validate": ["javascript"],
+
+  "spellright.language": ["en", "es"],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext"]
+}

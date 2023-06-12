@@ -1,0 +1,44 @@
+{
+  "name": "webtesting_e2e-puppeteer_labs",
+  "version": "1.9.1",
+  "description": "WebTesting e2e puppeteer Labs",
+  "author": {
+    "name": "Alberto Basalo",
+    "email": "albertobasalo@hotmail.com",
+    "url": "https://twitter.com/albertobasalo"
+  },
+  "homepage": "https://github.com/WebTestingTrit/WebTesting_e2e-puppeteer_Labs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebTestingTrit/WebTesting_e2e-puppeteer_Labs.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebTestingTrit/WebTesting_e2e-puppeteer_Labs/issues"
+  },
+  "scripts": {
+    "start": "nodemon main.js",
+    "deploy": "standard-version && git push --follow-tags origin master",
+    "updates": "ncu -u"
+  },
+  "devDependencies": {
+    "eslint": "7.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "npm-check-updates": "^16.3.14",
+    "prettier": "2.0.5",
+    "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "lighthouse": "^9.6.7",
+    "puppeteer": "^5.0.0",
+    "request": "^2.88.2",
+    "supertest": "^4.0.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "output/*"
+    ]
+  }
+}
